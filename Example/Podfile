@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '10.0'
+
+target 'HGPhotos_swift' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  #  忽略pod警告
+  #https://triplecc.github.io/2018/06/20/2018-06-20-cocoapodshu-lue-san-fang-zu-jian-bian-yi-jing-gao/
+  inhibit_all_warnings!
+
+  # Pods for HGPhotos_swift
+  pod 'HGPhotos', :path => '../'
+#  pod 'SnapKit', '~> 5.0.1'
+  
+  target 'HGPhotos_swiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+  target 'HGPhotos_swiftUITests' do
+    # Pods for testing
+  end
+  
+end
