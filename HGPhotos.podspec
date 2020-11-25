@@ -5,6 +5,9 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
+# git tag '0.1.0'
+# git push --tags
+# pod repo push HGPhotos HGPhotos.podspec
 
 Pod::Spec.new do |s|
   s.name             = 'HGPhotos'
