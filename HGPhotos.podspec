@@ -7,6 +7,7 @@
 #
 # git tag '0.1.0'
 # git push --tags
+# pod lib lint HGPhotos.podspec --allow-warnings
 # pod repo push HGPhotos HGPhotos.podspec
 
 Pod::Spec.new do |s|
